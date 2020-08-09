@@ -22,6 +22,7 @@ class Ball{
        //rotate(this.body.angle);
        console.log("ball");
        imageMode(CENTER);
+      // fill("purple");
        image(this.image,0,0,this.radius*2,this.radius*2);
        pop();
    }
